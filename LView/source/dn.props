@@ -1,0 +1,14 @@
+javax.jdo.PersistenceManagerFactoryClass=org.datanucleus.jdo.JDOPersistenceManagerFactory
+
+datanucleus.ConnectionDriverName=org.postgresql.Driver
+datanucleus.ConnectionURL=jdbc:postgresql://torliorv2:5432/lviewDB
+
+javax.jdo.option.ConnectionUserName=lview
+javax.jdo.option.ConnectionPassword=lview
+javax.jdo.option.DetachAllOnCommit=true
+
+datanucleus.autoCreateSchema=true
+datanucleus.validateTables=false
+datanucleus.validateConstraints=false
+datanucleus.rdbms.stringLengthExceededAction=TRUNCATE
+datanucleus.rdbms.constraintCreateMode=JDO2
